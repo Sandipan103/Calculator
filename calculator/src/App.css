@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(178, 217, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal-heading {
+  font-weight: bolder;
+  color: #f05454;
 }
